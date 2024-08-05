@@ -2,7 +2,7 @@
 
 ## Overview
 
-This application predicts medicinal leaf information based on images. It uses React for the frontend and Flask for the backend and machine learning model deployment.
+This application predicts medicinal leaf information based on images. It uses React for the frontend and Flask for the backend and  deep learning model deployment.
 
 ## Prerequisites
 
