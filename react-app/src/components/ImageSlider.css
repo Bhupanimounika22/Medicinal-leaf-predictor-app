@@ -1,0 +1,7 @@
+/* ImageSlider.css */
+.carousel-item img {
+    max-height: 500px;
+    object-fit: cover;
+     
+  }
+  

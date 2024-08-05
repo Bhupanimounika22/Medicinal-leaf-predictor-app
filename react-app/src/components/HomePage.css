@@ -1,0 +1,36 @@
+/* HomePage.css */
+.home-hero {
+  
+ 
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .home-hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .home-hero p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .home-hero img {
+    max-width: 100%;
+    border-radius: 10px;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  

@@ -1,0 +1,66 @@
+/* App.css */
+
+/* Reset some default styling */
+body, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+/* Container for the main content */
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  color: #343a40;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #343a40;
+  padding: 10px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.navbar a:hover {
+  background-color: #495057;
+  color: #fff;
+}
+
+/* Footer styles */
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  .navbar a {
+    display: block;
+    margin: 5px 0;
+  }
+}

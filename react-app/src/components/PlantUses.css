@@ -1,0 +1,86 @@
+/* PlantUses.css */
+.plant-uses {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .hero-image {
+  
+    text-align: center;
+    padding: 100px 20px;
+    margin-bottom: 40px;
+  }
+  
+  .hero-image h1 {
+    font-size: 2.5em;
+    margin: 0;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+   }
+  
+  .plant-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #0000001a;
+    overflow: hidden;
+    width: 300px;
+    margin-bottom: 20px;
+    text-align: center;
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  .plant-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    
+  }
+  
+  .plant-info {
+    padding: 20px;
+  }
+  
+  .plant-info h2 {
+    font-size: 1.5em;
+    color: #2f80ed;
+    margin-bottom: 10px;
+  }
+  
+  .plant-info h3 {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .plant-info p {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  

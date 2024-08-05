@@ -1,0 +1,17 @@
+/* Navbar.css */
+.navbar {
+    background-color: #343a40;
+  }
+ .container{
+    background-color: #343a40;
+
+ } 
+  .nav-link {
+ 
+    color: white;
+  }
+  
+  .nav-link:hover {
+    color: #ddd !important;
+  }
+  
